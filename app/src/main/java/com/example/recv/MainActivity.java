@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
                 new MyMovieData("Hunted","2012 yil",R.drawable.hanted),
                 new MyMovieData("Sevgi","2003 yil",R.drawable.love),
                 new MyMovieData("Erkak","2009 yil",R.drawable.men),
+                new MyMovieData("Operatsiya","2009 yil",R.drawable.operation),
+                new MyMovieData("Yigitlar","20118 yil",R.drawable.the_boys),
+                new MyMovieData("Tilak","2009 yil",R.drawable.wish)
         };
 
         MyMovieAdapter myMovieAdapter = new MyMovieAdapter(myMovieData,MainActivity.this);
